@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>529ALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>CM 18-3086</InvoiceNumber>
+        <InvoiceDate>2019-01-10</InvoiceDate>
+        <PurchaseOrderDate>2018-10-03</PurchaseOrderDate>
+        <PurchaseOrderNumber>TEST11_1508571971</PurchaseOrderNumber>
+        <TsetPurposeCode>00</TsetPurposeCode>
+        <BuyersCurrency>USD</BuyersCurrency>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0132</InternalOrderNumber>
+        <Department>00002</Department>
+        <Vendor>255463020</Vendor>
+        <CustomerAccountNumber>0020</CustomerAccountNumber>
+        <PromotionDealNumber>ONLINEASAP</PromotionDealNumber>
+        <FOBPayCode>CC</FOBPayCode>
+        <FOBLocationQualifier>OR</FOBLocationQualifier>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-10-03</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountPercentage>2</TermsDiscountPercentage>
+        <TermsDiscountDate>2019-02-24</TermsDiscountDate>
+        <TermsDiscountDueDays>45</TermsDiscountDueDays>
+        <TermsNetDueDate>2019-03-12</TermsNetDueDate>
+        <TermsNetDueDays>60</TermsNetDueDays>
+        <TermsDescription>2%, 45, 60</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2019-03-11</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>038</DateTimeQualifier1>
+        <Date1>2018-10-10</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>037</DateTimeQualifier1>
+        <Date1>2018-10-08</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>063</DateTimeQualifier1>
+        <Date1>2018-10-17</Date1>
+      </Date>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>0078742077864</AddressLocationNumber>
+        <AddressName>WALMART DC 7356 </AddressName>
+        <Address1>3215 COMMERCE CENTER BLVD</Address1>
+        <Address2 />
+        <City>BETHLEHEM</City>
+        <State>PA</State>
+        <PostalCode>18015</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>0078742077864</AddressLocationNumber>
+        <AddressName>WALMART DC 7356 </AddressName>
+        <Address1>3215 COMMERCE CENTER BLVD</Address1>
+        <Address2 />
+        <City>BETHLEHEM</City>
+        <State>PA</State>
+        <PostalCode>18015</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>BY</AddressTypeCode>
+        <LocationCodeQualifier>UL</LocationCodeQualifier>
+        <AddressLocationNumber>0078742077864</AddressLocationNumber>
+        <AddressName>WALMART DC 7356</AddressName>
+        <Address1>3215 COMMERCE CENTER BLVD</Address1>
+        <City>BETHLEHEM</City>
+        <State>PA</State>
+        <PostalCode>18015</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>SU</AddressTypeCode>
+        <AddressName>CORMAN USA INC</AddressName>
+      </Address>
+      <Reference>
+        <ReferenceQual>Delivery Date</ReferenceQual>
+        <Description>01/17/2019</Description>
+      </Reference>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>1</LineSequenceNumber>
+          <BuyerPartNumber />
+          <VendorPartNumber>NO TAX</VendorPartNumber>
+          <ConsumerPackageCode />
+          <GTIN />
+          <UnitPrice>0</UnitPrice>
+          <ShipQty>0</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>NO TAX -Sales Tax</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode />
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>001</LineSequenceNumber>
+          <BuyerPartNumber>551227926</BuyerPartNumber>
+          <VendorPartNumber>8016867001540</VendorPartNumber>
+          <ConsumerPackageCode>8016867001540</ConsumerPackageCode>
+          <GTIN>18016867001547</GTIN>
+          <UnitPrice>25.14</UnitPrice>
+          <OuterPack>6</OuterPack>
+          <ShipQty>0</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Cottony US Moderate 24 pcs, UPC801686700154, LC-COTUS0702</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>002</LineSequenceNumber>
+          <BuyerPartNumber>551227928</BuyerPartNumber>
+          <VendorPartNumber>8016867001564</VendorPartNumber>
+          <ConsumerPackageCode>8016867001564</ConsumerPackageCode>
+          <GTIN>18016867001561</GTIN>
+          <UnitPrice>33.56</UnitPrice>
+          <OuterPack>4</OuterPack>
+          <ShipQty>0</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Cottony US Ultimate 30 pcs, UPC 801686700156, LC-COTUS0704</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode />
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>

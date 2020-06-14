@@ -1,0 +1,84 @@
+<Invoice>
+    <Header>
+        <InvoiceHeader>
+            <InvoiceNumber>CM 18-3083</InvoiceNumber>
+            <InvoiceDate>2019-01-10</InvoiceDate>
+            <PurchaseOrderDate>2018-10-15</PurchaseOrderDate>
+            <PurchaseOrderNumber>TEST_195252</PurchaseOrderNumber>
+            <Vendor>22a8c54e74584b019b2d620bee50a150</Vendor>
+            <ShipDate>2018-10-15</ShipDate>
+        </InvoiceHeader>
+        <PaymentTerms>
+            <TermsType>01</TermsType>
+            <TermsBasisDateCode>3</TermsBasisDateCode>
+            <TermsNetDueDate>2019-02-10</TermsNetDueDate>
+            <TermsNetDueDays>30</TermsNetDueDays>
+            <TermsDescription>Net 30</TermsDescription>
+        </PaymentTerms>
+        <Address>
+            <AddressTypeCode>ST</AddressTypeCode>
+            <LocationCodeQualifier>92</LocationCodeQualifier>
+            <AddressLocationNumber>NJ1</AddressLocationNumber>
+            <AddressName>NJ1</AddressName>
+            <Address1>2 GATEWAY BLVD</Address1>
+            <Address2>INBOUND</Address2>
+            <City>PEDRICKTOWN</City>
+            <State>NJ</State>
+            <PostalCode>08067</PostalCode>
+            <Country>USA</Country>
+        </Address>
+        <Address>
+            <AddressTypeCode>RI</AddressTypeCode>
+            <AddressName>Corman USA Inc</AddressName>
+            <Address1>1140 BAY STREET  STE 2C</Address1>
+            <City>Staten Island</City>
+            <State>NY</State>
+            <PostalCode>10305</PostalCode>
+            <Country>US</Country>
+        </Address>
+        <CarrierInformation>
+            <CarrierTransMethodCode>M</CarrierTransMethodCode>
+            <CarrierRouting>UPS</CarrierRouting>
+        </CarrierInformation>
+    </Header>
+    <LineItems>
+        <LineItem>
+            <InvoiceLine>
+                <LineSequenceNumber>8</LineSequenceNumber>
+                <BuyerPartNumber>AA9DF3</BuyerPartNumber>
+                <VendorPartNumber>8016867007030</VendorPartNumber>
+                <PurchasePrice>27.48</PurchasePrice>
+                <ShipQty>0</ShipQty>
+                <ShipQtyUOM>CA</ShipQtyUOM>
+            </InvoiceLine>
+            <ProductOrItemDescription>
+            </ProductOrItemDescription>
+            <ProductOrItemDescription>
+                <ItemDescriptionType>08</ItemDescriptionType>
+                <ProductDescription>Organ(y)c Beauty Cotton pads - 70 pcs, ORGBT02</ProductDescription>
+            </ProductOrItemDescription>
+        </LineItem>
+        <LineItem>
+            <InvoiceLine>
+                <LineSequenceNumber>7</LineSequenceNumber>
+                <BuyerPartNumber>AA9DF2</BuyerPartNumber>
+                <VendorPartNumber>8016867007047</VendorPartNumber>
+                <PurchasePrice>27.48</PurchasePrice>
+                <ShipQty>0</ShipQty>
+                <ShipQtyUOM>CA</ShipQtyUOM>
+            </InvoiceLine>
+            <ProductOrItemDescription>
+            </ProductOrItemDescription>
+            <ProductOrItemDescription>
+                <ItemDescriptionType>08</ItemDescriptionType>
+                <ProductDescription>Organ(y)c Beauty  Cotton Balls - 100 pcs, ORGBT03</ProductDescription>
+            </ProductOrItemDescription>
+        </LineItem>
+    </LineItems>
+    <Summary>
+        <TotalAmount>0</TotalAmount>
+        <TotalNetSalesAmount>0</TotalNetSalesAmount>
+        <TotalLineItemNumber>2</TotalLineItemNumber>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+    </Summary>
+</Invoice>

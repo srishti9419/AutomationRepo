@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>620ALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>CM 18-3085</InvoiceNumber>
+        <InvoiceDate>2019-01-10</InvoiceDate>
+        <PurchaseOrderDate>2018-11-06</PurchaseOrderDate>
+        <PurchaseOrderNumber>08812386</PurchaseOrderNumber>
+        <TsetPurposeCode>00</TsetPurposeCode>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0135</InternalOrderNumber>
+        <Vendor>034755</Vendor>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-11-06</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountDate>2019-01-10</TermsDiscountDate>
+        <TermsNetDueDate>2019-01-11</TermsNetDueDate>
+        <TermsNetDueDays>0</TermsNetDueDays>
+        <TermsDescription>NET 40</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2019-01-10</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2018-11-16</Date1>
+      </Date>
+      <Contact>
+        <ContactTypeCode>WH</ContactTypeCode>
+        <ContactName>Walgreens-Mt Vernon</ContactName>
+        <ContactPhone>(618) 244-9100</ContactPhone>
+      </Contact>
+      <Contact>
+        <ContactTypeCode>OC</ContactTypeCode>
+        <ContactName>MONTIEL, KELSEY</ContactName>
+      </Contact>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>0089650630000</AddressLocationNumber>
+        <AddressName>WALGREEN </AddressName>
+        <Address1>P.O. BOX 4025</Address1>
+        <Address2 />
+        <City>DANVILLE</City>
+        <State>IL</State>
+        <PostalCode>61834</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>008965063W008</AddressLocationNumber>
+        <AddressName>Walgreens-Mt. Vernon </AddressName>
+        <Address1>5100 Lake Terrace NE</Address1>
+        <Address2 />
+        <City>Mt. Vernon</City>
+        <State>IL</State>
+        <PostalCode>62864</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Reference>
+        <ReferenceQual>Delivery Date</ReferenceQual>
+        <Description>01/11/2019</Description>
+      </Reference>
+      <Reference>
+        <ReferenceQual>ZZ</ReferenceQual>
+        <Description>WHI</Description>
+      </Reference>
+      <Notes>
+        <NoteCode>GEN</NoteCode>
+        <NoteInformationField>SCHEDULE APPT FOR NON NCS OR PREFERRED CARRIERS ON; INTERNET APPT SCHEDULING AT VENDOR.WALGREENS.COM</NoteInformationField>
+      </Notes>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>001</LineSequenceNumber>
+          <BuyerPartNumber>484523</BuyerPartNumber>
+          <VendorPartNumber>8016867001540</VendorPartNumber>
+          <ConsumerPackageCode>1112223334445</ConsumerPackageCode>
+          <UnitPrice>39.48</UnitPrice>
+          <ShipQty>0</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Cottony US Moderate 24 pcs, UPC801686700154, LC-COTUS0702</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode />
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>

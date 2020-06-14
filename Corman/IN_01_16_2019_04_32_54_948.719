@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>719ALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>19-0063A</InvoiceNumber>
+        <InvoiceDate>2018-10-03</InvoiceDate>
+        <PurchaseOrderDate>2018-10-03</PurchaseOrderDate>
+        <PurchaseOrderNumber>TEST_6931515</PurchaseOrderNumber>
+        <TsetPurposeCode>00</TsetPurposeCode>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0214</InternalOrderNumber>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-10-03</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountDate>2018-10-03</TermsDiscountDate>
+        <TermsNetDueDate>2018-10-04</TermsNetDueDate>
+        <TermsNetDueDays>0</TermsNetDueDays>
+        <TermsDescription>NET 40</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2018-10-03</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2018-10-16</Date1>
+      </Date>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>0119380370010</AddressLocationNumber>
+        <AddressName>Walgreen Co </AddressName>
+        <Address1>Accounts Payable</Address1>
+        <Address2 />
+        <City>Danville</City>
+        <State>IL</State>
+        <PostalCode>61834</PostalCode>
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>008965063W051</AddressLocationNumber>
+        <AddressName>Walgreen Co </AddressName>
+        <Address1>Walgreens Edwardsville Distribution Cente</Address1>
+        <Address2 />
+        <City>Edwardsville</City>
+        <State>IL</State>
+        <PostalCode>62025</PostalCode>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Reference>
+        <ReferenceQual>Delivery Date</ReferenceQual>
+        <Description>01/11/2019</Description>
+      </Reference>
+      <Reference>
+        <ReferenceQual>ZZ</ReferenceQual>
+      </Reference>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>1</LineSequenceNumber>
+          <BuyerPartNumber>309470</BuyerPartNumber>
+          <VendorPartNumber>8016867008860</VendorPartNumber>
+          <ConsumerPackageCode>801686700886</ConsumerPackageCode>
+          <GTIN>8016867008860</GTIN>
+          <UnitPrice>21.6</UnitPrice>
+          <OuterPack>12</OuterPack>
+          <ShipQty>4</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Organ(y)c feminine hygiene wipes box 20 pcs, ORGWW1A
+</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>2</LineSequenceNumber>
+          <BuyerPartNumber>484525</BuyerPartNumber>
+          <VendorPartNumber>8016867001564</VendorPartNumber>
+          <ConsumerPackageCode>801686700156</ConsumerPackageCode>
+          <GTIN>8016867001564</GTIN>
+          <UnitPrice>37.6</UnitPrice>
+          <OuterPack>4</OuterPack>
+          <ShipQty>5</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Cottony US Ultimate 30 pcs, UPC 801686700156, LC-COTUS0704</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode />
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>

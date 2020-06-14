@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="13.370332">
+<testcase classname="Login feature" name="Test login feature with multiple test data" time="7.114131">
+<skipped><![CDATA[Given Application is up and running.........................................passed
+When When I enter mercury and mercury.......................................undefined
+And Click on login button...................................................skipped
+Then I should see the  homepage.............................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Login feature" name="Test login feature with multiple test data 2" time="6.256201">
+<skipped><![CDATA[Given Application is up and running.........................................passed
+When When I enter mercury1 and mercury1.....................................undefined
+And Click on login button...................................................skipped
+Then I should see the  homepage.............................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

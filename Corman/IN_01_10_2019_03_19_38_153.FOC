@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>FOCALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>CM 18-3083</InvoiceNumber>
+        <InvoiceDate>2019-01-10</InvoiceDate>
+        <PurchaseOrderDate>2018-10-15</PurchaseOrderDate>
+        <PurchaseOrderNumber>TEST_195252</PurchaseOrderNumber>
+        <TsetPurposeCode>00</TsetPurposeCode>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0131</InternalOrderNumber>
+        <Vendor>22a8c54e74584b019b2d620bee50a150</Vendor>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-10-15</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountDate>2019-01-10</TermsDiscountDate>
+        <TermsNetDueDate>2019-02-10</TermsNetDueDate>
+        <TermsNetDueDays>30</TermsNetDueDays>
+        <TermsDescription>Net 30</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2019-02-09</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2018-10-25</Date1>
+      </Date>
+      <Contact>
+        <ContactTypeCode>BD</ContactTypeCode>
+        <ContactName>Supply Chain</ContactName>
+        <ContactPhone>2013510559</ContactPhone>
+        <ContactEmail>purchaseorders@jet.com</ContactEmail>
+      </Contact>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressName>JET.COM, INC.</AddressName>
+        <Address1>221 RIVER STREET</Address1>
+        <Address2>8th FLOOR</Address2>
+        <City>HOBOKEN</City>
+        <State>NJ</State>
+        <PostalCode>07030</PostalCode>
+        <Country />
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>NJ1</AddressLocationNumber>
+        <AddressName>NJ1 </AddressName>
+        <Address1>2 GATEWAY BLVD</Address1>
+        <Address2>INBOUND</Address2>
+        <City>PEDRICKTOWN</City>
+        <State>NJ</State>
+        <PostalCode>08067</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Reference>
+        <ReferenceQual>Delivery Date</ReferenceQual>
+        <Description>12/27/2018</Description>
+      </Reference>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>8</LineSequenceNumber>
+          <BuyerPartNumber>AA9DF3</BuyerPartNumber>
+          <VendorPartNumber>8016867007030</VendorPartNumber>
+          <UnitPrice>27.48</UnitPrice>
+          <ShipQty>4</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Organ(y)c Beauty Cotton pads - 70 pcs, ORGBT02
+</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>7</LineSequenceNumber>
+          <BuyerPartNumber>AA9DF2</BuyerPartNumber>
+          <VendorPartNumber>8016867007047</VendorPartNumber>
+          <UnitPrice>27.48</UnitPrice>
+          <ShipQty>5</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Organ(y)c Beauty  Cotton Balls - 100 pcs, ORGBT03
+</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode />
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>

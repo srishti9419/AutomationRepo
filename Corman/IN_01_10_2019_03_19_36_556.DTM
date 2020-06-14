@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>DTMALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>CM 18-3078</InvoiceNumber>
+        <InvoiceDate>2019-01-10</InvoiceDate>
+        <PurchaseOrderDate>2018-07-06</PurchaseOrderDate>
+        <PurchaseOrderNumber>TEST_BL7884207</PurchaseOrderNumber>
+        <TsetPurposeCode>00</TsetPurposeCode>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0137</InternalOrderNumber>
+        <Vendor>OB35835</Vendor>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-08-13</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountPercentage>2</TermsDiscountPercentage>
+        <TermsDiscountDate>2019-01-25</TermsDiscountDate>
+        <TermsDiscountDueDays>15</TermsDiscountDueDays>
+        <TermsNetDueDate>2019-03-12</TermsNetDueDate>
+        <TermsNetDueDays>60</TermsNetDueDays>
+        <TermsDescription>2% 15, Net 60 Days</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2019-03-11</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>010</DateTimeQualifier1>
+        <Date1>2018-08-13</Date1>
+      </Date>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>001013</AddressLocationNumber>
+        <AddressName>Gold Violin c/o Bluestem Brands </AddressName>
+        <Address1>35 VILLAGE ROAD 5th FLOOR, </Address1>
+        <Address2 />
+        <City>MIDDLETON</City>
+        <State>MA</State>
+        <PostalCode>01949</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>BDC004001</AddressLocationNumber>
+        <AddressName>Bluestem Brands Dist Center </AddressName>
+        <Address1>100 MURRAY DRIVE</Address1>
+        <Address2 />
+        <City>IRVINE</City>
+        <State>PA</State>
+        <PostalCode>16329</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Reference>
+        <ReferenceQual>ZZ</ReferenceQual>
+      </Reference>
+      <Notes>
+        <NoteCode>GEN</NoteCode>
+        <NoteInformationField>By accepting this purchase order, you agree to abide by the Bluestem Brands Inc. Terms and Conditions and refer to all documentation on http://orchardhomeservices.com/vendor-relations/</NoteInformationField>
+      </Notes>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>1</LineSequenceNumber>
+          <BuyerPartNumber>NTJ1T042</BuyerPartNumber>
+          <VendorPartNumber>8016867005913</VendorPartNumber>
+          <ConsumerPackageCode>8016867005913</ConsumerPackageCode>
+          <UnitPrice>5.25</UnitPrice>
+          <ShipQty>0</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Elyte Light Inco pads, NORMAL, 6 boxes, bags 24 pcs, EAI02N</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode />
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>

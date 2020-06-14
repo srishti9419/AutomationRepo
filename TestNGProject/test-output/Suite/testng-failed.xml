@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Chat Test(failed)">
+    <classes>
+      <class name="BasicTestNGAnnotations.BaseClass">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="aftersuite"/>
+        </methods>
+      </class> <!-- BasicTestNGAnnotations.BaseClass -->
+      <class name="BasicTestNGAnnotations.GroupChat">
+        <methods>
+          <include name="preConditionForTestCase"/>
+          <include name="test2"/>
+          <include name="beforeClass"/>
+          <include name="postConditionForTestCase"/>
+          <include name="afterChatModule"/>
+          <include name="test1"/>
+          <include name="beforeChatModule"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- BasicTestNGAnnotations.GroupChat -->
+      <class name="BasicTestNGAnnotations.ImageStatus">
+        <methods>
+          <include name="beforeStatusModule"/>
+          <include name="afterStatusModule"/>
+        </methods>
+      </class> <!-- BasicTestNGAnnotations.ImageStatus -->
+    </classes>
+  </test> <!-- Chat Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

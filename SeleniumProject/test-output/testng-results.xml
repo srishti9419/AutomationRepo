@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9070" started-at="2020-04-19T17:44:52Z" finished-at="2020-04-19T17:45:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9070" started-at="2020-04-19T17:44:52Z" finished-at="2020-04-19T17:45:02Z">
+      <class name="basicselenium2.BasicAuth">
+        <test-method status="PASS" signature="calender()[pri:0, instance:basicselenium2.BasicAuth@6574b225]" name="calender" duration-ms="9050" started-at="2020-04-19T23:14:52Z" finished-at="2020-04-19T23:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calender -->
+      </class> <!-- basicselenium2.BasicAuth -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>792ALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>CM 18-3079</InvoiceNumber>
+        <InvoiceDate>2019-01-10</InvoiceDate>
+        <PurchaseOrderDate>2018-10-08</PurchaseOrderDate>
+        <PurchaseOrderNumber>C2381606WHG_test1</PurchaseOrderNumber>
+        <TsetPurposeCode>00</TsetPurposeCode>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0128</InternalOrderNumber>
+        <Vendor>57344</Vendor>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-10-08</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountPercentage>2</TermsDiscountPercentage>
+        <TermsDiscountDate>2019-02-09</TermsDiscountDate>
+        <TermsDiscountDueDays>30</TermsDiscountDueDays>
+        <TermsNetDueDate>2019-02-11</TermsNetDueDate>
+        <TermsNetDueDays>31</TermsNetDueDays>
+        <TermsDescription>2% 30, Net 31 Days</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2019-02-10</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2018-10-15</Date1>
+      </Date>
+      <Contact>
+        <ContactTypeCode>BD</ContactTypeCode>
+        <ContactName>MICHAEL BROWN</ContactName>
+        <ContactPhone>614-757-5000</ContactPhone>
+      </Contact>
+      <Contact>
+        <ContactTypeCode>EA</ContactTypeCode>
+        <ContactName>EDI SERVICES</ContactName>
+        <ContactPhone>614-757-5334</ContactPhone>
+      </Contact>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>RO0153609</AddressLocationNumber>
+        <AddressName>Cardinal Wheeling </AddressName>
+        <Address1>71 Mill Acres Drive</Address1>
+        <Address2>CARDINAL HEALTH-NEW YORK CITY</Address2>
+        <City>Wheeling</City>
+        <State>WV</State>
+        <PostalCode>26003</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <AddressLocationNumber>RO0153609</AddressLocationNumber>
+        <AddressName>Cardinal Wheeling </AddressName>
+        <Address1>71 Mill Acres Drive</Address1>
+        <Address2 />
+        <City>Wheeling</City>
+        <State>WV</State>
+        <PostalCode>26003</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>BS</AddressTypeCode>
+        <LocationCodeQualifier>11</LocationCodeQualifier>
+        <AddressLocationNumber>RO0153609</AddressLocationNumber>
+        <AddressName>Cardinal Wheeling</AddressName>
+        <Address1>71 Mill Acres Drive</Address1>
+        <City>Wheeling</City>
+        <State>WV</State>
+        <PostalCode>26003</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>SU</AddressTypeCode>
+        <LocationCodeQualifier>11</LocationCodeQualifier>
+        <AddressLocationNumber>VEND57344</AddressLocationNumber>
+      </Address>
+      <Reference>
+        <ReferenceQual>Delivery Date</ReferenceQual>
+        <Description>01/14/2019</Description>
+      </Reference>
+      <Notes>
+        <NoteCode>GEN</NoteCode>
+        <NoteInformationField>CARDINAL HEALTH'S STANDARD TERMS AND CONDITIONS APPLY UNLESS OTHERWISE; PREVIOUSLY AGREED TO IN WRITING.; CARDINAL HEALTH IS AN EQUAL OPPORTUNITY EMPLOYER AND FEDERAL CONTRACTOR OR; SUBCONTRACTOR. CONSEQUENTLY, THE PARTIES AGREE THAT, AS APPLICABLE, THEY WILL; ABIDE BY THE REQUIREMENTS OF 41 CFR 60-1.4(A), 41 CFR 60-300.5(A) AND; 41 CFR 60-741.5(A) AND THAT THESE LAWS ARE INCORPORATED HEREIN BY REFERENCE.; THESE REGULATIONS PROHIBIT DISCRIMINATION AGAINST QUALIFIED INDIVIDUALS BASED ON; THEIR STATUS AS PROTECTED VETERANS OR INDIVIDUALS WITH DISABILITIES, AND; PROHIBIT DISCRIMINATION AGAINST ALL INDIVIDUALS BASED ON THEIR RACE, COLOR,; RELIGION, SEX, OR NATIONAL ORIGIN. THESE REGULATIONS REQUIRE THAT COVERED; PRIME CONTRACTORS AND SUBCONTRACTORS TAKE AFFIRMATIVE ACTION TO EMPLOY AND; ADVANCE IN EMPLOYMENT INDIVIDUALS WITHOUT REGARD TO RACE, COLOR, RELIGION; SEX, NATIONAL ORIGIN, PROTECTED VETERAN STATUS OR DISABLITY. THE PARTIES ALSO; ALSO AGREE THAT, AS APPLICABLE,THEY WILL ABIDE BY THE REQUIREMENTS OF; EXECUTIVE ORDER 13496 (29 CFR PART 471, APPENDIX A TO SUBPART A), RELATING TO; THE NOTICE OF EMPLOYEE RIGHTS UNDER FEDERAL LABOR LAWS.</NoteInformationField>
+      </Notes>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>1</LineSequenceNumber>
+          <BuyerPartNumber>5457460</BuyerPartNumber>
+          <VendorPartNumber>8016867009942</VendorPartNumber>
+          <NatlDrugCode>16867009942</NatlDrugCode>
+          <UnitPrice>39.48</UnitPrice>
+          <ShipQty>4</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Organ(y)c sanitary towels day, 12 boxes with 10 pcs, ORGST02
+</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+      <LineItem>
+        <InvoiceLine>
+          <LineSequenceNumber>2</LineSequenceNumber>
+          <BuyerPartNumber>5457452</BuyerPartNumber>
+          <VendorPartNumber>8016867009935</VendorPartNumber>
+          <NatlDrugCode>16867009935</NatlDrugCode>
+          <UnitPrice>37.08</UnitPrice>
+          <ShipQty>5</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Organ(y)c sanitary towels night, 12 boxes with 10 pcs, ORGST03
+</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode>Non</TaxTypeCode>
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>

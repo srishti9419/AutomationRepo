@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Invoices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.spscommerce.com/RSX">
+  <Invoice>
+    <Header>
+      <InvoiceHeader>
+        <TradingPartnerId>787ALLCORMANUSA</TradingPartnerId>
+        <InvoiceNumber>CM 18-3087</InvoiceNumber>
+        <InvoiceDate>2019-01-10</InvoiceDate>
+        <PurchaseOrderDate>2018-11-20</PurchaseOrderDate>
+        <PurchaseOrderNumber>TEST_10666200</PurchaseOrderNumber>
+        <TsetPurposeCode>N</TsetPurposeCode>
+        <SellersCurrency>US Dollar</SellersCurrency>
+        <ExchangeRate>0</ExchangeRate>
+        <InternalOrderNumber>19-0133</InternalOrderNumber>
+        <FOBPayCode>PP</FOBPayCode>
+        <FOBLocationDescription />
+        <CarrierRouting>UPS</CarrierRouting>
+        <ShipDate>2018-11-20</ShipDate>
+      </InvoiceHeader>
+      <PaymentTerms>
+        <TermsType>01</TermsType>
+        <TermsBasisDateCode>3</TermsBasisDateCode>
+        <TermsDiscountPercentage>2</TermsDiscountPercentage>
+        <TermsDiscountDate>2019-01-20</TermsDiscountDate>
+        <TermsDiscountDueDays>10</TermsDiscountDueDays>
+        <TermsNetDueDate>2019-02-10</TermsNetDueDate>
+        <TermsNetDueDays>30</TermsNetDueDays>
+        <TermsDescription>2% 10 Net 30</TermsDescription>
+      </PaymentTerms>
+      <Date>
+        <DateTimeQualifier1>002</DateTimeQualifier1>
+        <Date1>2019-02-09</Date1>
+      </Date>
+      <Date>
+        <DateTimeQualifier1>02</DateTimeQualifier1>
+        <Date1>2018-12-06</Date1>
+      </Date>
+      <Contact>
+        <ContactTypeCode>SC</ContactTypeCode>
+        <ContactName>CALL FOR APPT</ContactName>
+        <ContactPhone>5418633458</ContactPhone>
+      </Contact>
+      <Contact>
+        <ContactTypeCode>BD</ContactTypeCode>
+        <ContactName>DENISE BIENCOURT</ContactName>
+        <ContactPhone>2083770110</ContactPhone>
+      </Contact>
+      <Address>
+        <AddressTypeCode>BT</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>0098263140001</AddressLocationNumber>
+        <AddressName>WINCO FOODS </AddressName>
+        <Address1>PO BOX 52</Address1>
+        <Address2 />
+        <City>BOISE</City>
+        <State>ID</State>
+        <PostalCode>83707</PostalCode>
+      </Address>
+      <Address>
+        <AddressTypeCode>ST</AddressTypeCode>
+        <LocationCodeQualifier>92</LocationCodeQualifier>
+        <AddressLocationNumber>0098263149401</AddressLocationNumber>
+        <AddressName>WINCO - General </AddressName>
+        <Address1>325 Industrial Way Road</Address1>
+        <Address2 />
+        <City>Myrtle Creek</City>
+        <State>OR</State>
+        <PostalCode>97457</PostalCode>
+        <Country>USA</Country>
+      </Address>
+      <Address>
+        <AddressTypeCode>VN</AddressTypeCode>
+        <AddressName>Corman USA Inc</AddressName>
+        <Address1 />
+        <Address2 />
+        <City>Staten Island</City>
+        <State>NY</State>
+        <PostalCode>10305</PostalCode>
+        <Country>US</Country>
+      </Address>
+    </Header>
+    <LineItems>
+      <LineItem>
+        <InvoiceLine>
+          <BuyerPartNumber>719110</BuyerPartNumber>
+          <VendorPartNumber>8016867009959</VendorPartNumber>
+          <ConsumerPackageCode>016867009953</ConsumerPackageCode>
+          <UnitPrice>0</UnitPrice>
+          <OuterPack>12</OuterPack>
+          <ShipQty>5</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>Organi(y)c panty liners, 12 boxes with  24 pcs, ORGST01
+</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+      <LineItem>
+        <InvoiceLine>
+          <BuyerPartNumber>719111</BuyerPartNumber>
+          <VendorPartNumber>8016867007375</VendorPartNumber>
+          <ConsumerPackageCode>016867007376</ConsumerPackageCode>
+          <UnitPrice>0</UnitPrice>
+          <OuterPack>12</OuterPack>
+          <ShipQty>4</ShipQty>
+          <ShipQtyUOM />
+          <ExtendedItemTotal>0</ExtendedItemTotal>
+        </InvoiceLine>
+        <ProductOrItemDescription>
+          <ItemDescriptionType>08</ItemDescriptionType>
+          <ProductDescription>ORGANYC Brand Bio-Based Applicator Tampons Reg. 16 CT , ORGATBI02</ProductDescription>
+        </ProductOrItemDescription>
+        <Tax>
+          <TaxTypeCode>Non</TaxTypeCode>
+          <TaxAmount>0</TaxAmount>
+        </Tax>
+      </LineItem>
+    </LineItems>
+    <Summary>
+      <Tax>
+        <TaxTypeCode>Non</TaxTypeCode>
+        <TaxAmount>0</TaxAmount>
+      </Tax>
+      <Totals>
+        <TotalAmount>0</TotalAmount>
+        <TotalTermsDiscountAmount>0</TotalTermsDiscountAmount>
+        <InvoiceAmtDueByTermsDate>0</InvoiceAmtDueByTermsDate>
+      </Totals>
+    </Summary>
+  </Invoice>
+</Invoices>
