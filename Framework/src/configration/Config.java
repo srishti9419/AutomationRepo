@@ -1,6 +1,7 @@
 package configration;
 
 public class Config {
+	//declarations
 	
 	public final static String url="http://newtours.demoaut.com/ ";
 	public final static String globalUsername="mercury ";
